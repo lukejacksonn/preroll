@@ -3,6 +3,9 @@
   "version": "0.2.0",
   "description": "An opinionated web project builder with dev server",
   "main": "index.js",
+  "bin": {
+   "preroll": "./index.js"
+  },
   "dependencies": {
     "autoprefixer": "^7.1.4",
     "cssnano": "^3.10.0",
